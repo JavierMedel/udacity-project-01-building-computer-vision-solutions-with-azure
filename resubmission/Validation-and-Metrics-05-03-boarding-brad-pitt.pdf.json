@@ -1,0 +1,3595 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2022-05-16T20:50:58Z",
+	"lastUpdatedDateTime": "2022-05-16T20:51:04Z",
+	"analyzeResult": {
+		"apiVersion": "2022-01-30-preview",
+		"modelId": "jmedel-boarding-pass-custom-model",
+		"stringIndexType": "textElements",
+		"content": "ETK-54236748\nUDACITY AIRLINES\nPassenger Name\nCarrier\nFlight No.\nClass\nPassenger Name\nBRAD PITT\nUA\n717\nBusiness\nBRAD PITT\nFrom\nLondon\nTo\nToronto\nFrom: London\nDate\nBaggage\nSeat\nSeat\nDate\nTo: Toronto\nApril 20, 2022\nNO\n16B\n16B\nApril 20, 2022\nGATE\nBoarding Time\nGATE\nBoarding Time\nG1\n10:00 AM\nPST\nG1\n10:00 AM PST",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [
+					{
+						"content": "ETK-54236748",
+						"boundingBox": [
+							8.7054,
+							1.6864,
+							9.9149,
+							1.6864,
+							9.9149,
+							1.8211,
+							8.7054,
+							1.8211
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 0,
+							"length": 12
+						}
+					},
+					{
+						"content": "UDACITY",
+						"boundingBox": [
+							1.2604,
+							4.5604,
+							1.2652,
+							3.4096,
+							1.4944,
+							3.4096,
+							1.4896,
+							4.5604
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 13,
+							"length": 7
+						}
+					},
+					{
+						"content": "AIRLINES",
+						"boundingBox": [
+							1.2652,
+							3.3093,
+							1.2604,
+							2.1059,
+							1.4896,
+							2.1107,
+							1.4944,
+							3.3093
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 21,
+							"length": 8
+						}
+					},
+					{
+						"content": "Passenger",
+						"boundingBox": [
+							2.0134,
+							1.9212,
+							2.7901,
+							1.9212,
+							2.7901,
+							2.0926,
+							2.0134,
+							2.0926
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 30,
+							"length": 9
+						}
+					},
+					{
+						"content": "Name",
+						"boundingBox": [
+							2.8388,
+							1.9212,
+							3.2973,
+							1.9212,
+							3.2973,
+							2.0522,
+							2.8388,
+							2.0522
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 40,
+							"length": 4
+						}
+					},
+					{
+						"content": "Carrier",
+						"boundingBox": [
+							4.5678,
+							1.9171,
+							5.1142,
+							1.9171,
+							5.1142,
+							2.0528,
+							4.5678,
+							2.0528
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 45,
+							"length": 7
+						}
+					},
+					{
+						"content": "Flight",
+						"boundingBox": [
+							5.7466,
+							1.9171,
+							6.2102,
+							1.9171,
+							6.2102,
+							2.0926,
+							5.7466,
+							2.0926
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 53,
+							"length": 6
+						}
+					},
+					{
+						"content": "No.",
+						"boundingBox": [
+							6.2595,
+							1.9212,
+							6.5319,
+							1.9212,
+							6.5319,
+							2.0522,
+							6.2595,
+							2.0522
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 60,
+							"length": 3
+						}
+					},
+					{
+						"content": "Class",
+						"boundingBox": [
+							6.9948,
+							1.9171,
+							7.4035,
+							1.9171,
+							7.4035,
+							2.0528,
+							6.9948,
+							2.0528
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 64,
+							"length": 5
+						}
+					},
+					{
+						"content": "Passenger",
+						"boundingBox": [
+							7.8341,
+							1.9212,
+							8.6108,
+							1.9212,
+							8.6108,
+							2.0926,
+							7.8341,
+							2.0926
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 70,
+							"length": 9
+						}
+					},
+					{
+						"content": "Name",
+						"boundingBox": [
+							8.6595,
+							1.9212,
+							9.118,
+							1.9212,
+							9.118,
+							2.0522,
+							8.6595,
+							2.0522
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 80,
+							"length": 4
+						}
+					},
+					{
+						"content": "BRAD",
+						"boundingBox": [
+							2.0136,
+							2.1488,
+							2.5438,
+							2.1488,
+							2.5438,
+							2.2803,
+							2.0136,
+							2.2803
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 85,
+							"length": 4
+						}
+					},
+					{
+						"content": "PITT",
+						"boundingBox": [
+							2.6035,
+							2.1512,
+							3.0069,
+							2.1512,
+							3.0069,
+							2.2803,
+							2.6035,
+							2.2803
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 90,
+							"length": 4
+						}
+					},
+					{
+						"content": "UA",
+						"boundingBox": [
+							4.5651,
+							2.1488,
+							4.8417,
+							2.1488,
+							4.8417,
+							2.2828,
+							4.5651,
+							2.2828
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 95,
+							"length": 2
+						}
+					},
+					{
+						"content": "717",
+						"boundingBox": [
+							5.7482,
+							2.1485,
+							6.0267,
+							2.1485,
+							6.0267,
+							2.2816,
+							5.7482,
+							2.2816
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 98,
+							"length": 3
+						}
+					},
+					{
+						"content": "Business",
+						"boundingBox": [
+							6.9926,
+							2.1471,
+							7.6736,
+							2.1471,
+							7.6736,
+							2.282,
+							6.9926,
+							2.282
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 102,
+							"length": 8
+						}
+					},
+					{
+						"content": "BRAD",
+						"boundingBox": [
+							7.8343,
+							2.1488,
+							8.3645,
+							2.1488,
+							8.3645,
+							2.2803,
+							7.8343,
+							2.2803
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 111,
+							"length": 4
+						}
+					},
+					{
+						"content": "PITT",
+						"boundingBox": [
+							8.4242,
+							2.1512,
+							8.8276,
+							2.1512,
+							8.8276,
+							2.2803,
+							8.4242,
+							2.2803
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 116,
+							"length": 4
+						}
+					},
+					{
+						"content": "From",
+						"boundingBox": [
+							7.8333,
+							2.3812,
+							8.2535,
+							2.3812,
+							8.2535,
+							2.512,
+							7.8333,
+							2.512
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 121,
+							"length": 4
+						}
+					},
+					{
+						"content": "London",
+						"boundingBox": [
+							8.5237,
+							2.3771,
+							9.1239,
+							2.3771,
+							9.1239,
+							2.512,
+							8.5237,
+							2.512
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 126,
+							"length": 6
+						}
+					},
+					{
+						"content": "To",
+						"boundingBox": [
+							7.8343,
+							2.6133,
+							8.0426,
+							2.6133,
+							8.0426,
+							2.7441,
+							7.8343,
+							2.7441
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 133,
+							"length": 2
+						}
+					},
+					{
+						"content": "Toronto",
+						"boundingBox": [
+							8.5247,
+							2.6133,
+							9.1427,
+							2.6133,
+							9.1427,
+							2.7441,
+							8.5247,
+							2.7441
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 136,
+							"length": 7
+						}
+					},
+					{
+						"content": "From:",
+						"boundingBox": [
+							2.0126,
+							2.8433,
+							2.4691,
+							2.8433,
+							2.4691,
+							2.9743,
+							2.0126,
+							2.9743
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 144,
+							"length": 5
+						}
+					},
+					{
+						"content": "London",
+						"boundingBox": [
+							2.586,
+							2.8392,
+							3.1862,
+							2.8392,
+							3.1862,
+							2.9741,
+							2.586,
+							2.9741
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 150,
+							"length": 6
+						}
+					},
+					{
+						"content": "Date",
+						"boundingBox": [
+							4.5655,
+							2.8433,
+							4.9262,
+							2.8433,
+							4.9262,
+							2.9741,
+							4.5655,
+							2.9741
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 157,
+							"length": 4
+						}
+					},
+					{
+						"content": "Baggage",
+						"boundingBox": [
+							5.7476,
+							2.8433,
+							6.4215,
+							2.8433,
+							6.4215,
+							3.0147,
+							5.7476,
+							3.0147
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 162,
+							"length": 7
+						}
+					},
+					{
+						"content": "Seat",
+						"boundingBox": [
+							6.9975,
+							2.8405,
+							7.3253,
+							2.8405,
+							7.3253,
+							2.9749,
+							6.9975,
+							2.9749
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 170,
+							"length": 4
+						}
+					},
+					{
+						"content": "Seat",
+						"boundingBox": [
+							7.8392,
+							2.8405,
+							8.167,
+							2.8405,
+							8.167,
+							2.9749,
+							7.8392,
+							2.9749
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 175,
+							"length": 4
+						}
+					},
+					{
+						"content": "Date",
+						"boundingBox": [
+							8.5245,
+							2.8433,
+							8.8853,
+							2.8433,
+							8.8853,
+							2.9741,
+							8.5245,
+							2.9741
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 180,
+							"length": 4
+						}
+					},
+					{
+						"content": "To:",
+						"boundingBox": [
+							2.0136,
+							3.0733,
+							2.2642,
+							3.0733,
+							2.2642,
+							3.2043,
+							2.0136,
+							3.2043
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 185,
+							"length": 3
+						}
+					},
+					{
+						"content": "Toronto",
+						"boundingBox": [
+							2.3319,
+							3.0733,
+							2.9497,
+							3.0733,
+							2.9497,
+							3.2041,
+							2.3319,
+							3.2041
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 189,
+							"length": 7
+						}
+					},
+					{
+						"content": "April",
+						"boundingBox": [
+							4.5649,
+							3.0619,
+							4.9099,
+							3.0619,
+							4.9099,
+							3.2117,
+							4.5649,
+							3.2117
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 197,
+							"length": 5
+						}
+					},
+					{
+						"content": "20,",
+						"boundingBox": [
+							4.9605,
+							3.063,
+							5.1547,
+							3.063,
+							5.1547,
+							3.199,
+							4.9605,
+							3.199
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 203,
+							"length": 3
+						}
+					},
+					{
+						"content": "2022",
+						"boundingBox": [
+							5.2105,
+							3.063,
+							5.5347,
+							3.063,
+							5.5347,
+							3.1779,
+							5.2105,
+							3.1779
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 207,
+							"length": 4
+						}
+					},
+					{
+						"content": "NO",
+						"boundingBox": [
+							5.7466,
+							3.0705,
+							6.0201,
+							3.0705,
+							6.0201,
+							3.2049,
+							5.7466,
+							3.2049
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 212,
+							"length": 2
+						}
+					},
+					{
+						"content": "16B",
+						"boundingBox": [
+							7.011,
+							3.0705,
+							7.2999,
+							3.0705,
+							7.2999,
+							3.2049,
+							7.011,
+							3.2049
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 215,
+							"length": 3
+						}
+					},
+					{
+						"content": "16B",
+						"boundingBox": [
+							7.8526,
+							3.0705,
+							8.1416,
+							3.0705,
+							8.1416,
+							3.2049,
+							7.8526,
+							3.2049
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 219,
+							"length": 3
+						}
+					},
+					{
+						"content": "April",
+						"boundingBox": [
+							8.5239,
+							3.0619,
+							8.8689,
+							3.0619,
+							8.8689,
+							3.2117,
+							8.5239,
+							3.2117
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 223,
+							"length": 5
+						}
+					},
+					{
+						"content": "20,",
+						"boundingBox": [
+							8.9196,
+							3.063,
+							9.1137,
+							3.063,
+							9.1137,
+							3.199,
+							8.9196,
+							3.199
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 229,
+							"length": 3
+						}
+					},
+					{
+						"content": "2022",
+						"boundingBox": [
+							9.1696,
+							3.063,
+							9.4937,
+							3.063,
+							9.4937,
+							3.1779,
+							9.1696,
+							3.1779
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 233,
+							"length": 4
+						}
+					},
+					{
+						"content": "GATE",
+						"boundingBox": [
+							2.0165,
+							3.5322,
+							2.5264,
+							3.5322,
+							2.5264,
+							3.6666,
+							2.0165,
+							3.6666
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 238,
+							"length": 4
+						}
+					},
+					{
+						"content": "Boarding",
+						"boundingBox": [
+							3.1953,
+							3.5308,
+							3.9099,
+							3.5308,
+							3.9099,
+							3.7063,
+							3.1953,
+							3.7063
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 243,
+							"length": 8
+						}
+					},
+					{
+						"content": "Time",
+						"boundingBox": [
+							3.969,
+							3.5308,
+							4.3732,
+							3.5308,
+							4.3732,
+							3.6658,
+							3.969,
+							3.6658
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 252,
+							"length": 4
+						}
+					},
+					{
+						"content": "GATE",
+						"boundingBox": [
+							7.8372,
+							3.5322,
+							8.3471,
+							3.5322,
+							8.3471,
+							3.6666,
+							7.8372,
+							3.6666
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 257,
+							"length": 4
+						}
+					},
+					{
+						"content": "Boarding",
+						"boundingBox": [
+							8.5247,
+							3.5308,
+							9.2394,
+							3.5308,
+							9.2394,
+							3.7063,
+							8.5247,
+							3.7063
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 262,
+							"length": 8
+						}
+					},
+					{
+						"content": "Time",
+						"boundingBox": [
+							9.2979,
+							3.5308,
+							9.7017,
+							3.5308,
+							9.7017,
+							3.6658,
+							9.2979,
+							3.6658
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 271,
+							"length": 4
+						}
+					},
+					{
+						"content": "G1",
+						"boundingBox": [
+							2.0174,
+							4.0258,
+							2.2576,
+							4.0258,
+							2.2576,
+							4.1786,
+							2.0174,
+							4.1786
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 276,
+							"length": 2
+						}
+					},
+					{
+						"content": "10:00",
+						"boundingBox": [
+							3.2166,
+							4.0258,
+							3.6936,
+							4.0258,
+							3.6936,
+							4.1786,
+							3.2166,
+							4.1786
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 279,
+							"length": 5
+						}
+					},
+					{
+						"content": "AM",
+						"boundingBox": [
+							3.7583,
+							4.0263,
+							4.1063,
+							4.0263,
+							4.1063,
+							4.1757,
+							3.7583,
+							4.1757
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 285,
+							"length": 2
+						}
+					},
+					{
+						"content": "PST",
+						"boundingBox": [
+							3.1955,
+							4.2808,
+							3.5701,
+							4.2808,
+							3.5701,
+							4.4336,
+							3.1955,
+							4.4336
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 288,
+							"length": 3
+						}
+					},
+					{
+						"content": "G1",
+						"boundingBox": [
+							7.8372,
+							3.9789,
+							8.0495,
+							3.9789,
+							8.0495,
+							4.1132,
+							7.8372,
+							4.1132
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 292,
+							"length": 2
+						}
+					},
+					{
+						"content": "10:00",
+						"boundingBox": [
+							8.543,
+							3.9789,
+							8.9605,
+							3.9789,
+							8.9605,
+							4.1132,
+							8.543,
+							4.1132
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 295,
+							"length": 5
+						}
+					},
+					{
+						"content": "AM",
+						"boundingBox": [
+							9.0153,
+							3.9793,
+							9.3221,
+							3.9793,
+							9.3221,
+							4.1107,
+							9.0153,
+							4.1107
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 301,
+							"length": 2
+						}
+					},
+					{
+						"content": "PST",
+						"boundingBox": [
+							9.379,
+							3.9789,
+							9.706,
+							3.9789,
+							9.706,
+							4.1132,
+							9.379,
+							4.1132
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 304,
+							"length": 3
+						}
+					}
+				],
+				"selectionMarks": [],
+				"lines": [
+					{
+						"content": "ETK-54236748",
+						"boundingBox": [
+							8.7054,
+							1.6864,
+							9.9149,
+							1.6864,
+							9.9149,
+							1.8211,
+							8.7054,
+							1.8211
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "UDACITY AIRLINES",
+						"boundingBox": [
+							1.2604,
+							4.5604,
+							1.2604,
+							2.0581,
+							1.4896,
+							2.0581,
+							1.4944,
+							4.5604
+						],
+						"spans": [
+							{
+								"offset": 13,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "Passenger Name",
+						"boundingBox": [
+							2.0134,
+							1.9212,
+							3.2973,
+							1.9212,
+							3.2973,
+							2.0926,
+							2.0134,
+							2.0926
+						],
+						"spans": [
+							{
+								"offset": 30,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "Carrier",
+						"boundingBox": [
+							4.5678,
+							1.9171,
+							5.1142,
+							1.9171,
+							5.1142,
+							2.0528,
+							4.5678,
+							2.0528
+						],
+						"spans": [
+							{
+								"offset": 45,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "Flight No.",
+						"boundingBox": [
+							5.7466,
+							1.9171,
+							6.5319,
+							1.9171,
+							6.5319,
+							2.0926,
+							5.7466,
+							2.0926
+						],
+						"spans": [
+							{
+								"offset": 53,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "Class",
+						"boundingBox": [
+							6.9948,
+							1.9171,
+							7.4035,
+							1.9171,
+							7.4035,
+							2.0528,
+							6.9948,
+							2.0528
+						],
+						"spans": [
+							{
+								"offset": 64,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "Passenger Name",
+						"boundingBox": [
+							7.8341,
+							1.9212,
+							9.118,
+							1.9212,
+							9.118,
+							2.0926,
+							7.8341,
+							2.0926
+						],
+						"spans": [
+							{
+								"offset": 70,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "BRAD PITT",
+						"boundingBox": [
+							2.0136,
+							2.1488,
+							3.0069,
+							2.1488,
+							3.0069,
+							2.2803,
+							2.0136,
+							2.2803
+						],
+						"spans": [
+							{
+								"offset": 85,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "UA",
+						"boundingBox": [
+							4.5651,
+							2.1488,
+							4.8417,
+							2.1488,
+							4.8417,
+							2.2828,
+							4.5651,
+							2.2828
+						],
+						"spans": [
+							{
+								"offset": 95,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "717",
+						"boundingBox": [
+							5.7482,
+							2.1485,
+							6.0267,
+							2.1485,
+							6.0267,
+							2.2816,
+							5.7482,
+							2.2816
+						],
+						"spans": [
+							{
+								"offset": 98,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Business",
+						"boundingBox": [
+							6.9926,
+							2.1471,
+							7.6736,
+							2.1471,
+							7.6736,
+							2.282,
+							6.9926,
+							2.282
+						],
+						"spans": [
+							{
+								"offset": 102,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "BRAD PITT",
+						"boundingBox": [
+							7.8343,
+							2.1488,
+							8.8276,
+							2.1488,
+							8.8276,
+							2.2803,
+							7.8343,
+							2.2803
+						],
+						"spans": [
+							{
+								"offset": 111,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "From",
+						"boundingBox": [
+							7.8333,
+							2.3812,
+							8.2535,
+							2.3812,
+							8.2535,
+							2.512,
+							7.8333,
+							2.512
+						],
+						"spans": [
+							{
+								"offset": 121,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "London",
+						"boundingBox": [
+							8.5237,
+							2.3771,
+							9.1239,
+							2.3771,
+							9.1239,
+							2.512,
+							8.5237,
+							2.512
+						],
+						"spans": [
+							{
+								"offset": 126,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "To",
+						"boundingBox": [
+							7.8343,
+							2.6133,
+							8.0426,
+							2.6133,
+							8.0426,
+							2.7441,
+							7.8343,
+							2.7441
+						],
+						"spans": [
+							{
+								"offset": 133,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "Toronto",
+						"boundingBox": [
+							8.5247,
+							2.6133,
+							9.1427,
+							2.6133,
+							9.1427,
+							2.7441,
+							8.5247,
+							2.7441
+						],
+						"spans": [
+							{
+								"offset": 136,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "From: London",
+						"boundingBox": [
+							2.0126,
+							2.8392,
+							3.1862,
+							2.8392,
+							3.1862,
+							2.9743,
+							2.0126,
+							2.9743
+						],
+						"spans": [
+							{
+								"offset": 144,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Date",
+						"boundingBox": [
+							4.5655,
+							2.8433,
+							4.9262,
+							2.8433,
+							4.9262,
+							2.9741,
+							4.5655,
+							2.9741
+						],
+						"spans": [
+							{
+								"offset": 157,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Baggage",
+						"boundingBox": [
+							5.7476,
+							2.8433,
+							6.4215,
+							2.8433,
+							6.4215,
+							3.0147,
+							5.7476,
+							3.0147
+						],
+						"spans": [
+							{
+								"offset": 162,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "Seat",
+						"boundingBox": [
+							6.9975,
+							2.8405,
+							7.3253,
+							2.8405,
+							7.3253,
+							2.9749,
+							6.9975,
+							2.9749
+						],
+						"spans": [
+							{
+								"offset": 170,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Seat",
+						"boundingBox": [
+							7.8392,
+							2.8405,
+							8.167,
+							2.8405,
+							8.167,
+							2.9749,
+							7.8392,
+							2.9749
+						],
+						"spans": [
+							{
+								"offset": 175,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Date",
+						"boundingBox": [
+							8.5245,
+							2.8433,
+							8.8853,
+							2.8433,
+							8.8853,
+							2.9741,
+							8.5245,
+							2.9741
+						],
+						"spans": [
+							{
+								"offset": 180,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "To: Toronto",
+						"boundingBox": [
+							2.0136,
+							3.0733,
+							2.9497,
+							3.0733,
+							2.9497,
+							3.2043,
+							2.0136,
+							3.2043
+						],
+						"spans": [
+							{
+								"offset": 185,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "April 20, 2022",
+						"boundingBox": [
+							4.5649,
+							3.0619,
+							5.5347,
+							3.0619,
+							5.5347,
+							3.2117,
+							4.5649,
+							3.2117
+						],
+						"spans": [
+							{
+								"offset": 197,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "NO",
+						"boundingBox": [
+							5.7466,
+							3.0705,
+							6.0201,
+							3.0705,
+							6.0201,
+							3.2049,
+							5.7466,
+							3.2049
+						],
+						"spans": [
+							{
+								"offset": 212,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "16B",
+						"boundingBox": [
+							7.011,
+							3.0705,
+							7.2999,
+							3.0705,
+							7.2999,
+							3.2049,
+							7.011,
+							3.2049
+						],
+						"spans": [
+							{
+								"offset": 215,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "16B",
+						"boundingBox": [
+							7.8526,
+							3.0705,
+							8.1416,
+							3.0705,
+							8.1416,
+							3.2049,
+							7.8526,
+							3.2049
+						],
+						"spans": [
+							{
+								"offset": 219,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "April 20, 2022",
+						"boundingBox": [
+							8.5239,
+							3.0619,
+							9.4937,
+							3.0619,
+							9.4937,
+							3.2117,
+							8.5239,
+							3.2117
+						],
+						"spans": [
+							{
+								"offset": 223,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "GATE",
+						"boundingBox": [
+							2.0165,
+							3.5322,
+							2.5264,
+							3.5322,
+							2.5264,
+							3.6666,
+							2.0165,
+							3.6666
+						],
+						"spans": [
+							{
+								"offset": 238,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Boarding Time",
+						"boundingBox": [
+							3.1953,
+							3.5308,
+							4.3732,
+							3.5308,
+							4.3732,
+							3.7063,
+							3.1953,
+							3.7063
+						],
+						"spans": [
+							{
+								"offset": 243,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "GATE",
+						"boundingBox": [
+							7.8372,
+							3.5322,
+							8.3471,
+							3.5322,
+							8.3471,
+							3.6666,
+							7.8372,
+							3.6666
+						],
+						"spans": [
+							{
+								"offset": 257,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Boarding Time",
+						"boundingBox": [
+							8.5247,
+							3.5308,
+							9.7017,
+							3.5308,
+							9.7017,
+							3.7063,
+							8.5247,
+							3.7063
+						],
+						"spans": [
+							{
+								"offset": 262,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "G1",
+						"boundingBox": [
+							2.0174,
+							4.0258,
+							2.2576,
+							4.0258,
+							2.2576,
+							4.1786,
+							2.0174,
+							4.1786
+						],
+						"spans": [
+							{
+								"offset": 276,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "10:00 AM",
+						"boundingBox": [
+							3.2166,
+							4.0258,
+							4.1063,
+							4.0258,
+							4.1063,
+							4.1786,
+							3.2166,
+							4.1786
+						],
+						"spans": [
+							{
+								"offset": 279,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "PST",
+						"boundingBox": [
+							3.1955,
+							4.2808,
+							3.5701,
+							4.2808,
+							3.5701,
+							4.4336,
+							3.1955,
+							4.4336
+						],
+						"spans": [
+							{
+								"offset": 288,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "G1",
+						"boundingBox": [
+							7.8372,
+							3.9789,
+							8.0495,
+							3.9789,
+							8.0495,
+							4.1132,
+							7.8372,
+							4.1132
+						],
+						"spans": [
+							{
+								"offset": 292,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "10:00 AM PST",
+						"boundingBox": [
+							8.543,
+							3.9789,
+							9.706,
+							3.9789,
+							9.706,
+							4.1132,
+							8.543,
+							4.1132
+						],
+						"spans": [
+							{
+								"offset": 295,
+								"length": 12
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 307
+					}
+				]
+			}
+		],
+		"tables": [
+			{
+				"rowCount": 9,
+				"columnCount": 8,
+				"cells": [
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 8,
+						"content": "ETK-54236748",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9922,
+									1.3998,
+									9.9827,
+									1.4086,
+									9.9827,
+									1.8659,
+									0.9922,
+									1.8659
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 12
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"rowSpan": 8,
+						"columnSpan": 1,
+						"content": "UDACITY AIRLINES",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9922,
+									1.8659,
+									1.9292,
+									1.8659,
+									1.92,
+									4.7236,
+									0.9922,
+									4.7236
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 13,
+								"length": 16
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "Passenger Name",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									1.8659,
+									4.4344,
+									1.8571,
+									4.4436,
+									2.0857,
+									1.9292,
+									2.0857
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 30,
+								"length": 14
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Carrier",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4344,
+									1.8571,
+									5.6312,
+									1.8659,
+									5.6312,
+									2.0857,
+									4.4436,
+									2.0857
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 45,
+								"length": 7
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Flight No.",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.6312,
+									1.8659,
+									6.7539,
+									1.8659,
+									6.7539,
+									2.0857,
+									5.6312,
+									2.0857
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 53,
+								"length": 10
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Class",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7539,
+									1.8659,
+									7.7281,
+									1.8659,
+									7.7281,
+									2.0857,
+									6.7539,
+									2.0857
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 64,
+								"length": 5
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 1,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "Passenger Name",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7281,
+									1.8659,
+									9.9827,
+									1.8659,
+									9.9827,
+									2.0945,
+									7.7281,
+									2.0857
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 70,
+								"length": 14
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "BRAD PITT",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									2.0857,
+									4.4436,
+									2.0857,
+									4.4436,
+									2.3231,
+									1.9292,
+									2.3231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 85,
+								"length": 9
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "UA",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4436,
+									2.0857,
+									5.6312,
+									2.0857,
+									5.622,
+									2.3231,
+									4.4436,
+									2.3231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 95,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "717",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.6312,
+									2.0857,
+									6.7539,
+									2.0857,
+									6.7446,
+									2.3143,
+									5.622,
+									2.3231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 98,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Business",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7539,
+									2.0857,
+									7.7281,
+									2.0857,
+									7.7374,
+									2.3143,
+									6.7446,
+									2.3143
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 102,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "BRAD PITT",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7281,
+									2.0857,
+									9.9827,
+									2.0945,
+									9.9827,
+									2.3231,
+									7.7374,
+									2.3143
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 111,
+								"length": 9
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"rowSpan": 2,
+						"columnSpan": 2,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									2.3231,
+									4.4436,
+									2.3231,
+									4.4529,
+									2.7803,
+									1.9292,
+									2.7803
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4436,
+									2.3231,
+									5.622,
+									2.3231,
+									5.622,
+									2.5693,
+									4.4436,
+									2.5693
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									2.3231,
+									6.7446,
+									2.3143,
+									6.7446,
+									2.5693,
+									5.622,
+									2.5693
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7446,
+									2.3143,
+									7.7374,
+									2.3143,
+									7.7374,
+									2.5605,
+									6.7446,
+									2.5693
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "From",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7374,
+									2.3143,
+									8.4333,
+									2.3143,
+									8.4333,
+									2.5605,
+									7.7374,
+									2.5605
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 121,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "London",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4333,
+									2.3143,
+									9.9827,
+									2.3231,
+									9.9827,
+									2.5605,
+									8.4333,
+									2.5605
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 126,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4436,
+									2.5693,
+									5.622,
+									2.5693,
+									5.622,
+									2.7803,
+									4.4529,
+									2.7803
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									2.5693,
+									6.7446,
+									2.5693,
+									6.7446,
+									2.7803,
+									5.622,
+									2.7803
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7446,
+									2.5693,
+									7.7374,
+									2.5605,
+									7.7374,
+									2.7803,
+									6.7446,
+									2.7803
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "To",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7374,
+									2.5605,
+									8.4333,
+									2.5605,
+									8.4425,
+									2.7803,
+									7.7374,
+									2.7803
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 133,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Toronto",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4333,
+									2.5605,
+									9.9827,
+									2.5605,
+									9.9827,
+									2.7803,
+									8.4425,
+									2.7803
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 136,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "From: London",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									2.7803,
+									4.4529,
+									2.7803,
+									4.4529,
+									3.009,
+									1.9292,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 144,
+								"length": 12
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Date",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4529,
+									2.7803,
+									5.622,
+									2.7803,
+									5.622,
+									3.009,
+									4.4529,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 157,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Baggage",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									2.7803,
+									6.7446,
+									2.7803,
+									6.7446,
+									3.009,
+									5.622,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 162,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Seat",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7446,
+									2.7803,
+									7.7374,
+									2.7803,
+									7.7374,
+									3.009,
+									6.7446,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 170,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Seat",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7374,
+									2.7803,
+									8.4425,
+									2.7803,
+									8.4425,
+									3.009,
+									7.7374,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 175,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Date",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4425,
+									2.7803,
+									9.9827,
+									2.7803,
+									9.9827,
+									3.009,
+									8.4425,
+									3.009
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 180,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "To: Toronto",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									3.009,
+									4.4529,
+									3.009,
+									4.4622,
+									3.475,
+									1.9292,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 185,
+								"length": 11
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "April 20, 2022",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4529,
+									3.009,
+									5.622,
+									3.009,
+									5.622,
+									3.475,
+									4.4622,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 197,
+								"length": 14
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "NO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									3.009,
+									6.7446,
+									3.009,
+									6.7446,
+									3.475,
+									5.622,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 212,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "16B",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7446,
+									3.009,
+									7.7374,
+									3.009,
+									7.7374,
+									3.475,
+									6.7446,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 215,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "16B",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7374,
+									3.009,
+									8.4425,
+									3.009,
+									8.4425,
+									3.475,
+									7.7374,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 219,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "April 20, 2022",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4425,
+									3.009,
+									9.9827,
+									3.009,
+									9.9827,
+									3.475,
+									8.4425,
+									3.475
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 223,
+								"length": 14
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "GATE",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									3.475,
+									3.0983,
+									3.475,
+									3.1076,
+									3.8179,
+									1.9292,
+									3.8091
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 238,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Boarding Time",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									3.0983,
+									3.475,
+									4.4622,
+									3.475,
+									4.4622,
+									3.8179,
+									3.1076,
+									3.8179
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 243,
+								"length": 13
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4622,
+									3.475,
+									5.622,
+									3.475,
+									5.622,
+									3.8179,
+									4.4622,
+									3.8179
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									3.475,
+									6.7446,
+									3.475,
+									6.7354,
+									3.8267,
+									5.622,
+									3.8179
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7446,
+									3.475,
+									7.7374,
+									3.475,
+									7.7467,
+									3.8267,
+									6.7354,
+									3.8267
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "GATE",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7374,
+									3.475,
+									8.4425,
+									3.475,
+									8.4425,
+									3.8267,
+									7.7467,
+									3.8267
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 257,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Boarding Time",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4425,
+									3.475,
+									9.9827,
+									3.475,
+									9.9827,
+									3.8267,
+									8.4425,
+									3.8267
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 262,
+								"length": 13
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 2,
+						"content": "G1 10:00 AM PST",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.9292,
+									3.8091,
+									4.4622,
+									3.8179,
+									4.4808,
+									4.7236,
+									1.92,
+									4.7236
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 276,
+								"length": 15
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.4622,
+									3.8179,
+									5.622,
+									3.8179,
+									5.622,
+									4.7236,
+									4.4808,
+									4.7236
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 4,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.622,
+									3.8179,
+									6.7354,
+									3.8267,
+									6.7354,
+									4.7236,
+									5.622,
+									4.7236
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 5,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.7354,
+									3.8267,
+									7.7467,
+									3.8267,
+									7.7467,
+									4.7324,
+									6.7354,
+									4.7236
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 6,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "G1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.7467,
+									3.8267,
+									8.4425,
+									3.8267,
+									8.4425,
+									4.7236,
+									7.7467,
+									4.7324
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 292,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 7,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "10:00 AM PST",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4425,
+									3.8267,
+									9.9827,
+									3.8267,
+									9.992,
+									4.7236,
+									8.4425,
+									4.7236
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 295,
+								"length": 12
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"boundingBox": [
+							1.0291,
+							1.3962,
+							10.0766,
+							1.4009,
+							10.0727,
+							4.7473,
+							1.0248,
+							4.7413
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 307
+					}
+				]
+			}
+		],
+		"styles": [],
+		"documents": [
+			{
+				"docType": "jmedel-boarding-pass-custom-model",
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"boundingBox": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					}
+				],
+				"fields": {
+					"FIRST_NAME": {
+						"type": "string",
+						"valueString": "BRAD",
+						"content": "BRAD",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.0136,
+									2.1488,
+									2.5438,
+									2.1488,
+									2.5438,
+									2.2803,
+									2.0136,
+									2.2803
+								]
+							}
+						],
+						"confidence": 0.9827330708503724,
+						"spans": [
+							{
+								"offset": 85,
+								"length": 4
+							}
+						]
+					},
+					"LAST_NAME": {
+						"type": "string",
+						"valueString": "PITT",
+						"content": "PITT",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6035,
+									2.1512,
+									3.0069,
+									2.1512,
+									3.0069,
+									2.2803,
+									2.6035,
+									2.2803
+								]
+							}
+						],
+						"confidence": 0.9858803153038024,
+						"spans": [
+							{
+								"offset": 90,
+								"length": 4
+							}
+						]
+					},
+					"CARRIER": {
+						"type": "string",
+						"valueString": "UA",
+						"content": "UA",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.5651,
+									2.1488,
+									4.8417,
+									2.1488,
+									4.8417,
+									2.2828,
+									4.5651,
+									2.2828
+								]
+							}
+						],
+						"confidence": 0.9829198122024536,
+						"spans": [
+							{
+								"offset": 95,
+								"length": 2
+							}
+						]
+					},
+					"FLIGHT_NUM": {
+						"type": "string",
+						"valueString": "717",
+						"content": "717",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.7482,
+									2.1485,
+									6.0267,
+									2.1485,
+									6.0267,
+									2.2816,
+									5.7482,
+									2.2816
+								]
+							}
+						],
+						"confidence": 0.9643771648406982,
+						"spans": [
+							{
+								"offset": 98,
+								"length": 3
+							}
+						]
+					},
+					"GATE": {
+						"type": "string",
+						"valueString": "G1",
+						"content": "G1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.0174,
+									4.0258,
+									2.2576,
+									4.0258,
+									2.2576,
+									4.1786,
+									2.0174,
+									4.1786
+								]
+							}
+						],
+						"confidence": 0.9207000136375428,
+						"spans": [
+							{
+								"offset": 276,
+								"length": 2
+							}
+						]
+					},
+					"BOARDING_TIME": {
+						"type": "string",
+						"valueString": "10:00 PST",
+						"content": "10:00 PST",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									3.1955,
+									4.0258,
+									3.6936,
+									4.0258,
+									3.6936,
+									4.4336,
+									3.1955,
+									4.4336
+								]
+							}
+						],
+						"confidence": 0.8843837976455688,
+						"spans": [
+							{
+								"offset": 279,
+								"length": 5
+							},
+							{
+								"offset": 288,
+								"length": 3
+							}
+						]
+					},
+					"CLASS": {
+						"type": "string",
+						"valueString": "Business",
+						"content": "Business",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									6.9926,
+									2.1471,
+									7.6736,
+									2.1471,
+									7.6736,
+									2.282,
+									6.9926,
+									2.282
+								]
+							}
+						],
+						"confidence": 0.982885479927063,
+						"spans": [
+							{
+								"offset": 102,
+								"length": 8
+							}
+						]
+					},
+					"DATE": {
+						"type": "string",
+						"valueString": "April 20, 2022",
+						"content": "April 20, 2022",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.5649,
+									3.0619,
+									5.5347,
+									3.0619,
+									5.5347,
+									3.2117,
+									4.5649,
+									3.2117
+								]
+							}
+						],
+						"confidence": 0.9723034501075744,
+						"spans": [
+							{
+								"offset": 197,
+								"length": 14
+							}
+						]
+					},
+					"BAGGAGE": {
+						"type": "string",
+						"valueString": "NO",
+						"content": "NO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.7466,
+									3.0705,
+									6.0201,
+									3.0705,
+									6.0201,
+									3.2049,
+									5.7466,
+									3.2049
+								]
+							}
+						],
+						"confidence": 0.98259174823761,
+						"spans": [
+							{
+								"offset": 212,
+								"length": 2
+							}
+						]
+					},
+					"SEAT": {
+						"type": "string",
+						"valueString": "16B",
+						"content": "16B",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.011,
+									3.0705,
+									7.2999,
+									3.0705,
+									7.2999,
+									3.2049,
+									7.011,
+									3.2049
+								]
+							}
+						],
+						"confidence": 0.9823439717292786,
+						"spans": [
+							{
+								"offset": 215,
+								"length": 3
+							}
+						]
+					},
+					"ORIGIN": {
+						"type": "string",
+						"valueString": "London",
+						"content": "London",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.586,
+									2.8392,
+									3.1862,
+									2.8392,
+									3.1862,
+									2.9741,
+									2.586,
+									2.9741
+								]
+							}
+						],
+						"confidence": 0.9831244945526124,
+						"spans": [
+							{
+								"offset": 150,
+								"length": 6
+							}
+						]
+					},
+					"DESTINATION": {
+						"type": "string",
+						"valueString": "Toronto",
+						"content": "Toronto",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.3319,
+									3.0733,
+									2.9497,
+									3.0733,
+									2.9497,
+									3.2041,
+									2.3319,
+									3.2041
+								]
+							}
+						],
+						"confidence": 0.9648392796516418,
+						"spans": [
+							{
+								"offset": 189,
+								"length": 7
+							}
+						]
+					},
+					"FIRST_NAME_2": {
+						"type": "string",
+						"valueString": "BRAD",
+						"content": "BRAD",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.8343,
+									2.1488,
+									8.3645,
+									2.1488,
+									8.3645,
+									2.2803,
+									7.8343,
+									2.2803
+								]
+							}
+						],
+						"confidence": 0.982730507850647,
+						"spans": [
+							{
+								"offset": 111,
+								"length": 4
+							}
+						]
+					},
+					"LAST_NAME_2": {
+						"type": "string",
+						"valueString": "PITT",
+						"content": "PITT",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.4242,
+									2.1512,
+									8.8276,
+									2.1512,
+									8.8276,
+									2.2803,
+									8.4242,
+									2.2803
+								]
+							}
+						],
+						"confidence": 0.9604651927947998,
+						"spans": [
+							{
+								"offset": 116,
+								"length": 4
+							}
+						]
+					},
+					"ORIGIN_2": {
+						"type": "string",
+						"valueString": "London",
+						"content": "London",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.5237,
+									2.3771,
+									9.1239,
+									2.3771,
+									9.1239,
+									2.512,
+									8.5237,
+									2.512
+								]
+							}
+						],
+						"confidence": 0.9830281734466552,
+						"spans": [
+							{
+								"offset": 126,
+								"length": 6
+							}
+						]
+					},
+					"DATE_2": {
+						"type": "string",
+						"valueString": "April 20, 2022",
+						"content": "April 20, 2022",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.5239,
+									3.0619,
+									9.4937,
+									3.0619,
+									9.4937,
+									3.2117,
+									8.5239,
+									3.2117
+								]
+							}
+						],
+						"confidence": 0.9671285152435304,
+						"spans": [
+							{
+								"offset": 223,
+								"length": 14
+							}
+						]
+					},
+					"DESTINATION_2": {
+						"type": "string",
+						"valueString": "Toronto",
+						"content": "Toronto",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.5247,
+									2.6133,
+									9.1427,
+									2.6133,
+									9.1427,
+									2.7441,
+									8.5247,
+									2.7441
+								]
+							}
+						],
+						"confidence": 0.8071348071098328,
+						"spans": [
+							{
+								"offset": 136,
+								"length": 7
+							}
+						]
+					},
+					"SEAT_2": {
+						"type": "string",
+						"valueString": "16B",
+						"content": "16B",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.8526,
+									3.0705,
+									8.1416,
+									3.0705,
+									8.1416,
+									3.2049,
+									7.8526,
+									3.2049
+								]
+							}
+						],
+						"confidence": 0.9815285205841064,
+						"spans": [
+							{
+								"offset": 219,
+								"length": 3
+							}
+						]
+					},
+					"BOARDING_TIME_2": {
+						"type": "string",
+						"valueString": "10:00 AM PST",
+						"content": "10:00 AM PST",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									8.543,
+									3.9789,
+									9.706,
+									3.9789,
+									9.706,
+									4.1132,
+									8.543,
+									4.1132
+								]
+							}
+						],
+						"confidence": 0.956781566143036,
+						"spans": [
+							{
+								"offset": 295,
+								"length": 12
+							}
+						]
+					},
+					"GATE_2": {
+						"type": "string",
+						"valueString": "G1",
+						"content": "G1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									7.8372,
+									3.9789,
+									8.0495,
+									3.9789,
+									8.0495,
+									4.1132,
+									7.8372,
+									4.1132
+								]
+							}
+						],
+						"confidence": 0.9449942111968994,
+						"spans": [
+							{
+								"offset": 292,
+								"length": 2
+							}
+						]
+					}
+				},
+				"confidence": 0.99741167,
+				"spans": [
+					{
+						"offset": 0,
+						"length": 307
+					}
+				]
+			}
+		]
+	}
+}
