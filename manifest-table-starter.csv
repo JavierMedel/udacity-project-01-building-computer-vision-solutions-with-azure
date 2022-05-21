@@ -1,6 +1,0 @@
-Flight No,Origin,Destination,Date,Time,First Name,Last Name,Sex, SeatNo, DateofBirth, DoBValidation, PersonValidation, LuggageValidation, NameValidation, BoardingPassValidation
-UA-717,London,Toronto, 20 April 2021, 10:00,Javier Medel,Medel, M,1A,1-Jan-90,,TRUE,,,
-UA-717,London,Toronto, 20 April 2021, 10:00,Johnny Depp,Deep, M,34B,1-Jan-60,,,,,
-UA-717,London,Toronto, 20 April 2021, 10:00,Brad Pitt,Pitt, M,16B,1-Jan-60,,,,,
-UA-717,London,Toronto, 20 April 2021, 10:00,Chris Evans,Evans, M,20A,1-Jan-80,,,,,
-UA-717,London,Toronto, 20 April 2021, 10:00,Thor Odinson,Odison, M,21A,1-Jan-83,,,,,
